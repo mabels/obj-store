@@ -1,7 +1,7 @@
 {
-  "name": "sha-store",
-  "version": "2.0.0",
-  "description": "write data to pouchdb",
+  "name": "obj-store",
+  "version": "1.0.0",
+  "description": "write obj to pouchdb",
   "main": "./dist/src/index.js",
   "typings": "dist/src/index.d.ts",
   "files": [
@@ -23,13 +23,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "mabels/sha-store"
+    "url": "mabels/obj-store"
   },
   "license": "AFL-2.0",
   "bugs": {
-    "url": "https://github.com/mabels/sha-store/issues"
+    "url": "https://github.com/mabels/obj-store/issues"
   },
-  "homepage": "https://github.com/mabels/sha-store#readme",
+  "homepage": "https://github.com/mabels/obj-store#readme",
   "devDependencies": {
     "@types/chai": "4.1.4",
     "@types/mocha": "5.2.5",
@@ -42,9 +42,11 @@
     "typescript": "^2.7.2"
   },
   "dependencies": {
+    "foundation-store": "^2.0.0",
     "pouchdb": "^7.0.0",
     "pouchdb-find": "^7.0.0",
     "rxjs": "^6.2.2",
+    "sha-store": "^3.0.0",
     "uuid": "^3.3.0"
   }
 }
